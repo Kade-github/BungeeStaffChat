@@ -36,7 +36,7 @@ public class Event implements Listener {
                         {
                             String server = "";
                             if (config.getBoolean("displayServer"))
-                                server = p.getServer().getInfo().getName() + " ";
+                                server = config.getString("serverPrefix").replace("%server%", p.getServer().getInfo().getName());
                             pl.sendMessage("" + ChatColor.translateAlternateColorCodes('&', config.getString("chatPrefix")) + server + p.getDisplayName() + " > " + event.getMessage());
                         }
                     }
