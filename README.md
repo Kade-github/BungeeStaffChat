@@ -1,2 +1,2 @@
 # BungeeStaffChat
-The simplest staff chat for proxy networks around!
+## [https://www.spigotmc.org/resources/bungeestaffchat.70413/](Spigot Link)
