@@ -1,0 +1,4 @@
+chatPrefix: "&a&l[Staff]&r"
+serverPrefix: "&a&l[%server%]&r"
+displayServer: true
+toggleCharacter: "#"
