@@ -1,2 +1,2 @@
 # BungeeStaffChat
-## [https://www.spigotmc.org/resources/bungeestaffchat.70413/](Spigot Link)
+## [Spigot Link](https://www.spigotmc.org/resources/bungeestaffchat.70413/)
