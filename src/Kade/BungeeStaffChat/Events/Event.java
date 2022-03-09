@@ -32,7 +32,7 @@ public class Event implements Listener {
         {
             for (ProxiedPlayer pl : p.getServer().getInfo().getPlayers())
             {
-                if (pl.hasPermission("bungeestaffchat.chat"))
+                if (!pl.hasPermission("bungeestaffchat.chat"))
                     continue;
                 String server = "";
                 if (config.getBoolean("displayServer"))
